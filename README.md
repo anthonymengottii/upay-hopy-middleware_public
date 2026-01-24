@@ -5,7 +5,7 @@
 [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
-> **Middleware de pagamentos em produção** desenvolvido para integração com Hopy Split, suportando múltiplos gateways de pagamento brasileiros (Pagar.me, Citrex, Zendry) com funcionalidades avançadas de processamento de transações, webhooks bidirecionais e gestão de recebedores.
+> **Middleware de pagamentos em produção** desenvolvido para integração com Hopy Split, suportando múltiplos gateways de pagamento brasileiros (Pagar.me, Citrex, Zendry, Pagflex) com funcionalidades avançadas de processamento de transações, webhooks bidirecionais e gestão de recebedores.
 
 ## 🎯 Sobre o Projeto
 
@@ -28,7 +28,7 @@ Este middleware foi desenvolvido para atuar como camada intermediária entre a p
 ## 🎯 Principais Funcionalidades
 
 ### 💳 Processamento de Pagamentos
-- ✅ **Múltiplos Gateways**: Integração com Pagar.me, Citrex, Zendry e Mock para testes
+- ✅ **Múltiplos Gateways**: Integração com Pagar.me, Citrex, Zendry, Pagflex e Mock para testes
 - ✅ **Múltiplas Adquirentes Simultâneas**: Cada API key pode ser vinculada a uma adquirente específica
 - ✅ **Métodos de Pagamento**: Suporte completo para PIX, Boleto e Cartão de Crédito/Débito
 - ✅ **Recursos Avançados**: Tokenização de cartões, 3D Secure e estorno de transações
@@ -111,6 +111,7 @@ src/
 | **Pagar.me** | ✅ | PIX, Boleto, Cartão | Split de pagamentos |
 | **Citrex** | ✅ | PIX (API V3) | OAuth 2.0, Validação RSA |
 | **Zendry** | ✅ | PIX, Cartão | 3D Secure, Tokenização |
+| **Pagflex** | ✅ | PIX, Cartão | Tokenização segura |
 | **Mock** | ✅ | Todos (testes) | Simulação de cenários |
 
 ## 📡 Endpoints Principais

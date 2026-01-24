@@ -150,7 +150,7 @@ Desenvolver uma solução robusta e escalável para integração com múltiplos 
 ## 💡 Diferenciais do Projeto
 
 1. **Sistema em Produção**: Não é apenas um projeto de estudo, está processando transações reais
-2. **Múltiplas Integrações**: Demonstra capacidade de trabalhar com diferentes APIs
+2. **Múltiplas Integrações**: Suporte a 4+ gateways de pagamento principais (Pagar.me, Citrex, Zendry, Pagflex)
 3. **Segurança**: Foco em segurança desde o início
 4. **Arquitetura**: Uso de padrões de design e boas práticas
 5. **Observabilidade**: Sistema completo de logging e monitoramento
@@ -185,4 +185,6 @@ Desenvolver uma solução robusta e escalável para integração com múltiplos 
 ---
 
 **Este projeto demonstra capacidade de desenvolver soluções completas, desde a concepção até o deploy em produção, com foco em qualidade, segurança e boas práticas.**
+
+
 

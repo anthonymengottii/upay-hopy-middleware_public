@@ -50,3 +50,5 @@ Para mais informações sobre o projeto, oportunidades profissionais ou colabora
 
 **Aberto a conversas sobre oportunidades profissionais e projetos interessantes!**
 
+
+
